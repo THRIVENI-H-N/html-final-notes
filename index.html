@@ -1,0 +1,362 @@
+<!-- DNS- domain name sysytem
+ server- is the one which has lot of computational features.
+ ex:- cloud server
+
+ shortcuts in vs code
+ ctrl + '+'(zoom in)
+ ctrl + '-'(zoom out)
+ ctrl + s (saves the file)
+ ctrl + a(copy the entire file)
+ ctrl + c(copy the selected content)
+ ctrl + v(pasting the copied content)
+ ctrl + l(select line)
+ ctrl + x(copies and cuts the selected content)
+ ctrl + z(undo)
+ ctrl + y(redo)
+
+ HTML-Hyper Text Markup Language
+Biolerplate Code: this is the minimum/basic requirement of HTML file
+ -->
+
+<!-- <!DOCTYPE html> //tells that this is a HTML document
+<html lang="en">
+<head> //head opening tag
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> //title opening and closing tag. which gives title to our webpage.
+</head> //head closing tag (with forword slash)
+<body> //body opening tag
+    
+
+</body> //body closing tag
+</html> -->
+
+<!-- when ! is not working for biolerplate just type HTML and then select html5 then you will find  -->
+
+<!-- tags- HTML tags are simple instructions that tell a web browser how to format text. You can use tags to format italics, line breaks, objects, bullet points, and more. -->
+
+<!-- headings
+there are 6 types of heading tags in html
+h1,h2,h3,h4,h5,h6  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <base href="http://www.google.com"> -->
+    <link rel="icon" href="">
+    <!-- rel- relationship href- hyper reference -->
+</head>
+<body>
+    <h1>hello</h1>
+     <h2>hello</h2> // ctrl + d(to select same text)
+    <h3>hello</h3>
+    <h4>hello</h4>
+    <h5>hello</h5>
+    <h6>hello</h6>
+<img src="download (2).jpg" alt="insert img">
+<h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur culpa aliquam quo praesentium! Fugiat assumenda tempore autem non officia.</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum adipisci doloremque enim magnam placeat tempora modi praesentium quibusdam molestiae fugiat. Beatae velit inventore, dolores quasi, asperiores voluptatum obcaecati natus quis exercitationem architecto aperiam sunt quo dolore maiores ipsa magnam corporis repudiandae expedita esse officiis voluptates repellat quas facilis explicabo! Sit iure doloribus rem nulla placeat ut id ipsam incidunt, voluptatum, veritatis aperiam ratione obcaecati dicta! Quis eligendi quaerat et molestias, tenetur, nesciunt natus, laborum possimus deserunt minima delectus quam eaque ratione exercitationem in laudantium illo repellendus itaque. Reiciendis cupiditate impedit, atque voluptatum autem illum quod commodi et. Voluptatem, voluptates asperiores.</p>
+
+<img src="download (2).jpg" alt="" width="400px" height="200px">
+
+<br><br>
+<!-- src, alt, width and height are the properties of img tag -->
+
+<!-- img :used to link images in webpagesattributes that work on img tag are:
+    src -> used to attach image 
+    filewidth -> Used to adjust width of the imageheight -> Used to adjust the height of the imagealt -> Used to define the image when the image is not loaded/broken -->
+
+<!-- anchor tag:- to attach the hyperlinks we will be using anchor tag. the keyword is "a" -->
+
+<a href="https://www.prepbytes.com">prepbytes</a>
+<br><br>
+<a href="https://google.com" target="_blank"> 
+    <img src="download (2).jpg" alt="insert image" width="100" height="100" > <br>
+    </a>
+<!-- href- hyper reference -->
+<!-- a:Used for attaching hyperlinks inside our webpage
+href(hyper reference) -> mandatory attribute , used to attach address of the destination
+    target -> _self , _blank 
+_self:- will open web page in same window
+_blank:- will open web page in new window -->
+
+<!-- base tag will always be given in head tag which means this base tag will serve same for all the anchor tags which are present in webpage. and it is self closing tag -->
+
+<a href="/apis">apis</a> <br> <br>
+<a href="/clouds">clouds</a>
+
+<!-- lists:- 3 lists are there in html
+1. ordered list (ol)
+2. unordered list (ul)
+3. description list -->
+<h1>unordered list(ul)</h1>
+<ul type="none"> 
+    <!-- none will be used to hde the bullet points -->
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+</ul>
+
+<h1>ordered list(ol)</h1>
+<ol>
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+</ol>
+
+<ol type="i">
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+</ol>
+
+<ol type="I">
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+</ol>
+
+<ol type="a">
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+</ol>
+
+<ol type="A">
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+</ol>
+
+<ol type="1">
+    <li>one
+        <ul type="a">
+            <li>hii</li>
+        </ul>
+    </li>
+    <li>two</li>
+    <li>three</li>
+</ol>
+
+
+<p>normal </p> <br>
+<b>bold text</b> <br>
+<strong>bold one</strong> (which is important and used for screen recoreding) <br>
+<i>italic one</i> <br>
+<em>italic text</em> (which is important and used for screen recoreding)<br>
+<mark>marked text</mark> <br>
+<del>deleted text</del> <br>
+<ins>inserted text</ins> <br>
+log <sub>10</sub> <br>
+x <sup>10</sup> <br>
+
+<p>Lorem ipsum dolor sit, <b>amet consectetur</b> adipisicing elit. Aliquid aut mollitia eligendi ex, rerum doloremque perferendis <i>vitae saepe</i> distinctio dignissimos.</p>
+
+<!-- forms:- which will be used to fill the data ffor that we are using input tag. input tag is selfclosing tag-->
+<input type="text"> <br> <br>
+<input type="number"> <br> <br>
+<input type="email"> <br> <br>
+<input type="password"> <br> <br>
+<input type="date"> <br><br>
+<input type="time"> <br><br>
+<input type="datetime-local"><br><br>
+<input type="file" > <br><br>
+<input type="submit" value=""> <br><br>
+<button>login</button> <br><br>
+
+<!-- forms:- basically they will be having lot of entities -->
+<form>
+    <input type="email" placeholder="email"><br><br>
+    <input type="password" placeholder="password"><br><br>
+    <!-- to have dropdown list -->
+    <select>
+        <option value="HTML">HTML</option>
+        <option value="JS">JS</option>
+        <option value="REACT">REACT</option>
+    </select> <br> <br>
+    <input type="radio"> <br><br>
+    <input type="checkbox"><br><br>
+
+
+    <input type="submit" value="login"> <br><br>
+<form>
+    <label for="thriveni1">thriveni1</label>
+    email:
+    <input type="email"><br><br>
+    <label for="">password:</label>
+    <input type="password" id="thriveni"><br><br>
+    <input type="text" id="thriveni1">
+</form>
+
+<!-- id's are unique. we are not suppose to repeat the id values anyware in the webpage -->
+<!-- when we click on placeholder is called as focused state and outside the placeholder in blur state -->
+
+<form action="thiru.html">
+<input type="email" placeholder="email" value="email" required><br><br>
+<input type="password" placeholder="password" value="password" required><br><br>
+<input type="submit" value="login" value="submit" required><br><br>
+
+</form>
+
+<video src="https://www.shutterstock.com/video/clip-1062394867-cool-neon-15-seconds-countdown-last-1"
+controls
+muted
+loop
+autoplay
+></video>
+<br><br>
+<video 
+src="https://www.w3schools.com/html/mov_bbb.mp4" 
+controls 
+muted
+loop
+autoplay>
+</video>
+<br><br>
+
+<!-- iframe:inline frame. frame is a kind of webpage. by using iframe we are attaching another webpage to the current webpage -->
+iframe
+<iframe src="http://127.0.0.1:5500/thiru.html?"></iframe>
+
+<br><br>
+<iframe src="http://www.prepbytes.com"  width="400" height="400"></iframe>
+<br><br>
+<!-- img - used to attach image files
+    video - used to attach video files
+    iframe - used to attach frames(webpages)
+img is selfclosing tag
+ video iis not selfclosing tag-->
+
+
+ <!-- to attach the youtube video -->
+ <iframe src="https://www.youtube.com/embed/cmfxTrvgXk8" ></iframe>
+
+<br><br>
+<input type="radio" name="gender" id="male">
+<label for="male">male</label>
+<br>
+
+<input type="radio" name="gender" id="female">
+<label for="female">female</label>
+<br>
+
+<input type="radio" name="gender" id="others">
+<label for="others">others</label>
+<br>
+
+<input type="submit" value="login">
+<br><br>
+
+<table border="2" cellpadding="2" bgcolor="blue">
+    <tr>
+        <b>
+            <th>sl.no</th>
+        <th>name</th>
+        <th>age</th>
+        </b>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td> <font color="red">thiru
+             </font>
+        </td>
+        <td rowspan="2">23</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td colspan="2">thiru</td>
+        <td>23</td>
+    </tr>
+
+</table>
+
+
+<!-- colspanning : merging two columns being in a single
+rowrowspanning: merging two rows being inside a sigle column -->
+
+
+<!-- element:- which contains opening tag, closing tag and some text inside that -->
+<!-- eg:- <h1>element</h1> -->
+
+<!--there are 2 types of elements are there
+1. block level element
+2.inline element  -->
+
+<!-- block level element : elements which starts in a new line and takes that entire line irrespective of the content taht it contains -->
+
+<!-- inline element : elements which starts in same line  -->
+<h1>hiii</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem commodi ut ratione itaque asperiores suscipit?</p>
+<b>how are you</b> 
+<span>hello everyone</span>
+
+<!-- here span and bold text is inline element
+ -->
+<img src="download (2).jpg" alt="">
+<!-- img is also inline element -->
+
+<!-- h1 to h6 are block level elements
+all the text formating tags are block level elements -->
+
+<!-- favicons:- the uniqe icon which will be present for all the webpages are ntg but fevicons we use link tag to attach favicons. this tag will be in head tag only -->
+
+<!-- semantic tags
+section, nav, footer, header
+div- used for making small section of the webpage- -->
+<!-- by using these semantic tags we can devide entire webpage into parts -->
+
+<!-- target attribute- anchor tag  -->
+<br>
+<section>
+    <h1>i am section tag</h1>
+<img src="download3.jpg" alt="">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora earum modi maiores provident minima ab nam blanditiis repudiandae sunt dolorem.</p>
+</section>
+<hr>
+<section>i am section</section>
+<div>i am division</div>
+<nav>i am nav</nav>
+<header>i am header</header>
+<footer>i am footer</footer>
+<br>
+
+<nav>
+    <a href="thiru.html">thiru</a>
+</nav>
+
+
+<!-- relative paths:-
+
+1. looking in current folder(./)
+2. looking inside parent folder(.//) -->
+
+<!-- <link rel="stylesheet" href="./thiru.html">
+
+<link rel="stylesheet" href="../index.html"> -->
+
+<!-- git
+git init
+git add .
+git status to check the status of wat we have added
+git commit -m "any msg"
+git remote add origin 'path'
+git push -u origin 'branch name' -->
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
